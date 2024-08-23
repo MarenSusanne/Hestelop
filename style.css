@@ -1,0 +1,32 @@
+body{
+    background-color: darkgreen;
+}
+.container{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-gap: 30px;
+}
+.boxes{
+    border: 1px dotted;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deck{
+    background-color: rgb(6, 70, 11);
+}
+#pile{
+    background-color: rgb(6, 119, 25);
+}
+.cardback{
+    width: 60px;
+}
+.ace{
+    width: 60px;
+}
+.cards{
+    width: 60px;
+}
