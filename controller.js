@@ -20,19 +20,19 @@ function updateSideCard(id){
     
     switch(id){
         case '7':
-            model.app.fourth_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)].image
+            model.app.fourth_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)]
             
             break
         case '13':
-            model.app.third_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)].image
+            model.app.third_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)]
             
             break
         case '19':
-            model.app.second_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)].image
+            model.app.second_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)]
             
             break
         case '25':
-            model.app.first_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)].image
+            model.app.first_side_card = model.data.cards_in_deck[random(0,model.data.cards_in_deck.length)]
             
             break
     }
